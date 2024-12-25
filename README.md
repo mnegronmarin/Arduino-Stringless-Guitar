@@ -7,31 +7,38 @@ Welcome to the Arduino Guitar String Simulator, a fun little project which can t
 
 # Video
 
+# How it Works
+The distance sensor reads the distance to the user's finger, and depending on that distance, the arduino calculates which note should be played (it follows the same structure as the guitar's 6th string E). It showcases the note being played on the OLED screen and plays the note to the passive buzzer, combining technology and music in a fun anf interactive way!
 
 # What I used
 * ELEGOO Uno R3 (Arduino Uno R3 clone) (The brains 🧠)
-* VL53L0X Distance Sensor (To measure your finger's position 🎯)
-* OLED I2C 128x64 Screen (To display the note and distance 📟)
+* VL53L0X Distance Sensor (To measure your finger's position)
+* OLED I2C 128x64 Screen (To display the note and distance)
 * Passive Buzzer (To play the notes 🎵)
 * Breadboard and a lot of wires
 * And many household items to put it all together such as cardboard, tape, and even a sock.
 
-# Issues and Workarounds
+# Issues I ran Into
 
 ## RAM Memory
-Initially, including the OLED screen and the distance sensor into the same breadboard, the program would not run. However, when I tested them individually, the components would work without any problem. After a while of searching for possible solutions, I found out through a post in Arduino's help website that the disfunctionality was due to the Arduino's small RAM memory being taken up mostly by the OLED screen. 
-To fix it I had to find a way to make the code more efficient, and came up with the idea to load in 32 vertical pixels of the screen instead of the traditional 64, which worked perfectly. 
+Initially, when I connected both the OLED screen and the distance sensor to the same breadboard, the program failed to run. However, testing each component individually revealed no issues. After some troubleshooting and researching, I discovered through a post on Arduino's help forum that the problem stemmed from the Arduino's limited RAM, which was being almost entirely consumed by the OLED screen.
+
+To resolve this, I focused on optimizing the code. I implemented a solution to load only 32 vertical pixels of the screen instead of the standard 64. This adjustment significantly reduced memory usage and allowed the program to run smoothly.
+
 <img width="189" alt="image" src="https://github.com/user-attachments/assets/42fc94f3-ad04-415e-aab3-0ef5aaca936a" />
 
 ## Compacting the Device
-Since I wanted the device to be comfortable enough to fit on top of one's hand and play the arm as the instrument, I had to find a way to compact it. This was the most challenging part. 
-I originally thought it would be a good idea to craft a cardboard box and place the device inside it, but this resulted in many wires being pulled out while placing the lid and difficulty in placing the distance sensor and the screen in a reasonable spot. Even worse, it the device was too big to fit on top of one's hand.
-Then I decided to make the device's circuitry exposed. Even though it may not protect the wires and components, this exposure would make it easier for me to work with the circuitry and it would also result in a much cooler looking device instrument. 
-I also added a glove made from a sock to hold the instument in place.
+Since I wanted the device to be comfortable enough to fit on top of one's hand and play the arm as the instrument, I had to find a way to compact it. This was the most challenging part of the proyect. 
+
+I originally thought it would be a good idea to craft a cardboard box and place the device inside it, but this resulted in many problems. The wires were frequently being pulled out while placing the lid and it was difficult to position the distance sensor and the OLED screen in a practical spot. Even worse, it the device was too big to fit on top of one's hand.
+
+I eventually decided to embrace an open-circuit design, leaving the components exposed. While this left the wires and components unprotected, it made the circuitry much easier to work with and gave the device a unique, futuristic look. To secure the instrument, I added a glove made from a sock which worked perfectly.
 
 # Construction
 <img width="571" alt="Screenshot 2024-12-24 160629" src="https://github.com/user-attachments/assets/46c3d35f-ed0a-4050-b371-51b8217652b3" />
-While this image does not contain the exact OLED screen and distance sensor I used in the device, it showcases a similar circuit to the one built.
+While this image does not contain the exact OLED screen (OLED I2C 128x64) and distance sensor (VL53L0X) I used in the device, it showcases a similar circuit to the one built. The connections and layout are representative of the actual setup so you may use this as reference. Note that depending onn the specific components you use, pin configurations and wiring may vary. 
+
+For example, my VL53L0X distance sensor had SCL and SDA pins which had to be connected to A5 and A4, respectively. Hence, in my breadboard I made a joined connection for those pins for both the OLED screen and the distance sensor. 
 
 # Credits
 * https://forum.arduino.cc/t/arduino-uno-ssd1306-allocation-failed-need-help-downsizing/1131175/6
