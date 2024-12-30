@@ -1,5 +1,5 @@
-#🎸 Arduino Guitar String Simulator
-Welcome to the Arduino Guitar String Simulator, a fun little project which can turn anyone into a musical genius! By strumming your finger to the 6th string og the guitar (E chord), any note from F to E can be played.
+#🎸 Arduino Stringless Guitar
+Welcome to the Arduino Stringless Guitar, a fun little project which can turn anyone into a musical genius. By strumming your finger to the 6th string of the guitar (E chord), any note from F to E can be played.
 
 # Pictures
 ![IMG_5189](https://github.com/user-attachments/assets/93107da9-ad19-4963-b47c-17b8ddd1c6f5)
@@ -8,10 +8,10 @@ Welcome to the Arduino Guitar String Simulator, a fun little project which can t
 # Video
 
 # How it Works
-The distance sensor reads the distance to the user's finger, and depending on that distance, the arduino calculates which note should be played (it follows the same structure as the guitar's 6th string E). It showcases the note being played on the OLED screen and plays the note to the passive buzzer, combining technology and music in a fun anf interactive way!
+The distance sensor reads the distance to the user's finger, and depending on that distance, the arduino calculates which note should be played (it follows the same structure as the guitar's 6th string E). It showcases the note being played on the OLED screen and plays the note to the passive buzzer, combining technology and music in a fun and interactive way!
 
 # What I used
-* ELEGOO Uno R3 (Arduino Uno R3 clone) (The brains 🧠)
+* ELEGOO Uno R3 (Arduino Uno R3 clone)
 * VL53L0X Distance Sensor (To measure your finger's position)
 * OLED I2C 128x64 Screen (To display the note and distance)
 * Passive Buzzer (To play the notes 🎵)
