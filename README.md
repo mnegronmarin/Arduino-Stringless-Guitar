@@ -32,7 +32,7 @@ Since I wanted the device to be comfortable enough to fit on top of one's hand a
 
 I originally thought it would be a good idea to craft a cardboard box and place the device inside it, but this resulted in many problems. The wires were frequently being pulled out while placing the lid and it was difficult to position the distance sensor and the OLED screen in a practical spot. Even worse, it the device was too big to fit on top of one's hand.
 
-I eventually decided to embrace an open-circuit design, leaving the components exposed. While this left the wires and components unprotected, it made the circuitry much easier to work with and gave the device a unique, futuristic look. To secure the instrument, I added a glove made from a sock which worked perfectly.
+I eventually decided to embrace an open-circuit design, leaving the components exposed. While this left the wires and components unprotected, it made the circuitry much easier to work with and gave the device a unique look. To secure the instrument, I added a glove made from a sock which worked perfectly.
 
 # Construction
 <img width="571" alt="Screenshot 2024-12-24 160629" src="https://github.com/user-attachments/assets/46c3d35f-ed0a-4050-b371-51b8217652b3" />
