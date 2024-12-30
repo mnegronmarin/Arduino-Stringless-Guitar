@@ -1,4 +1,4 @@
-#🎸 Arduino Stringless Guitar
+# 🎸 Arduino Stringless Guitar
 Welcome to the Arduino Stringless Guitar, a fun little project which can turn anyone into a musical genius. By strumming your finger to the 6th string of the guitar (E chord), any note from F to E can be played.
 
 # Pictures
@@ -36,6 +36,7 @@ I eventually decided to embrace an open-circuit design, leaving the components e
 
 # Construction
 <img width="571" alt="Screenshot 2024-12-24 160629" src="https://github.com/user-attachments/assets/46c3d35f-ed0a-4050-b371-51b8217652b3" />
+
 While this image does not contain the exact OLED screen (OLED I2C 128x64) and distance sensor (VL53L0X) I used in the device, it showcases a similar circuit to the one built. The connections and layout are representative of the actual setup so you may use this as reference. Note that depending onn the specific components you use, pin configurations and wiring may vary. 
 
 For example, my VL53L0X distance sensor had SCL and SDA pins which had to be connected to A5 and A4, respectively. Hence, in my breadboard I made a joined connection for those pins for both the OLED screen and the distance sensor. 
