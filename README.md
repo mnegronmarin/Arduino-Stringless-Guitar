@@ -6,6 +6,20 @@ Welcome to the Arduino Stringless Guitar, a fun little project which can turn an
 ![IMG_5181](https://github.com/user-attachments/assets/7567666e-c596-44ae-9d4f-326f34ecc97b)
 
 # Video
+##With finger apparatus
+
+
+https://github.com/user-attachments/assets/700227fa-5c4d-43d1-82ca-908047517a3f
+
+
+The reason behing using the finger apparatus is to increase the surface area of the object that the distance sensor must read. This decreases the small errors from the distance sensor. 
+
+##Without finger apparatus
+
+
+https://github.com/user-attachments/assets/22cb3e33-60cb-4d9a-9313-d9d945a59214
+
+
 
 # How it Works
 The distance sensor reads the distance to the user's finger, and depending on that distance, the arduino calculates which note should be played (it follows the same structure as the guitar's 6th string E). It showcases the note being played on the OLED screen and plays the note to the passive buzzer, combining technology and music in a fun and interactive way!
