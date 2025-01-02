@@ -4,18 +4,20 @@ Welcome to the Arduino Stringless Guitar, a fun little project which can turn an
 # Pictures
 ![IMG_5189](https://github.com/user-attachments/assets/93107da9-ad19-4963-b47c-17b8ddd1c6f5)
 ![IMG_5181](https://github.com/user-attachments/assets/7567666e-c596-44ae-9d4f-326f34ecc97b)
+![IMG_5179](https://github.com/user-attachments/assets/ebc5d61c-95ea-42c1-a468-7810d88d0e10)
+
 
 # Video
 ##With finger apparatus
 
-
 https://github.com/user-attachments/assets/700227fa-5c4d-43d1-82ca-908047517a3f
+
+https://github.com/user-attachments/assets/66bb9c18-9f30-45b8-a47b-06f60857499b
 
 
 The reason behing using the finger apparatus is to increase the surface area of the object that the distance sensor must read. This decreases the small errors from the distance sensor. 
 
 ##Without finger apparatus
-
 
 https://github.com/user-attachments/assets/22cb3e33-60cb-4d9a-9313-d9d945a59214
 
