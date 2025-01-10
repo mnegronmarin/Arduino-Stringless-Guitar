@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/700227fa-5c4d-43d1-82ca-908047517a3f
 https://github.com/user-attachments/assets/66bb9c18-9f30-45b8-a47b-06f60857499b
 
 
-The reason behing using the finger apparatus is to increase the surface area of the object that the distance sensor must read. This decreases the small errors from the distance sensor. 
+The reason behind using the finger apparatus is to increase the surface area of the object that the distance sensor must read. This decreases the small errors from the distance sensor. 
 
 ## Without finger apparatus
 
